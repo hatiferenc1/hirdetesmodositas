@@ -13,8 +13,8 @@
 <div class='pdoboz'>
     <h1><?=$poszt['Ptitle'];?></h1>
     <img src="./images/<?=$_GET['k'];?>" style="width: 40%;">
-    <p><?=$poszt['Pdesc'];?></p>
-    <p><?=$poszt['Ptel'];?></p>
-    <p><?=$poszt['Pcity'];?></p>
-    <p><?=$poszt['Pcost'];?></p>
+    <p>Leírás: <?=$poszt['Pdesc'];?></p>
+    <p>Elérhetőség: <?=$poszt['Ptel'];?></p>
+    <p>Város: <?=$poszt['Pcity'];?></p>
+    <p>Ár: <?=$poszt['Pcost'];?></p>
 </div>
